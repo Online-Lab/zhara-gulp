@@ -4,7 +4,7 @@ app.factory("Mailer", function($http){
     return {
       sendEmail: function(msg){
 
-        var fromEmail = 'zhara@zhara.ru';
+        var fromEmail = 'zhara@club.ru';
         var fromName = 'Zhara Club';
         var replyTo = 'email';
 
@@ -20,7 +20,7 @@ app.factory("Mailer", function($http){
                           'from_name': fromName,
                           'to': [
                               {
-                                  'email': "ds007007@yandex.ru",
+                                  'email': "tau7@mail.ru",
                                   'type': 'to'
                               }
                           ]
