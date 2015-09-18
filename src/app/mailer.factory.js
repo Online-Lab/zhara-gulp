@@ -1,3 +1,5 @@
+'use strict';
+
 var app = angular.module("zharaGulp");
 
 app.factory("Mailer", function($http){
