@@ -7,8 +7,8 @@ if (is_production === 'true') {
   console.log('------------Running "bower install"------------');
   exec('node node_modules/bower/bin/bower install');
 
-  console.log('------------Running "gulp build:dist"------------');
-  exec('node node_modules/gulp/bin/gulp.js build:dist');
+  console.log('------------Running "gulp build"------------');
+  exec('node node_modules/gulp/bin/gulp.js build');
   return;
 }
 
