@@ -1,0 +1,95 @@
+/* Main block */
+.main-block-container{
+  background: url(../../assets/images/intro-bg.jpg) center 0 no-repeat;
+  border-bottom: 5px solid @orange-color;
+
+  .main-block-info{
+    color: #fff;
+
+    span{
+      .bold;
+      font-size: 24px;
+    }
+  }
+
+  .main-block-form{
+    border: 2px solid @orange-color;
+    height: 234px;
+  }
+
+  .main-block-timer-title{
+    .bold;
+    color: @orange-color;
+    font-size: 24px;
+    text-align: center;
+  }
+}
+
+/* Trainers block */
+.trainers-container{
+  background: @orange-color;
+
+  .trainers-container-caption{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .trainers-buttons{
+    height: 18px;
+  }
+
+  .trainers-list{
+    color: #fff;
+    font-size: 21px;
+
+    li:nth-child(3n){
+      margin-right: 0;
+    }
+  }
+}
+
+/* Cocktails block */
+.cocktails-container{
+  background: @black-color;
+  border-bottom: 5px solid @orange-color;
+
+  .cocktails-container-caption{
+    color: @orange-color;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .cocktails-list{
+    overflow: hidden;
+    li{
+      font-size: 21px;
+      text-align: center;
+    }
+
+    .cocktail-type1{ color: #38A3DC;}
+    .cocktail-type2{ color: #8BC53F;}
+    .cocktail-type3{ color: #FCBF12;}
+  }
+}
+
+/* Map container */
+.map-container{
+  padding: 0;
+  position: relative;
+  width: @content-width + 71px + 71px;
+
+  .map-main-container{
+    background: url(../../assets/images/map.jpg) center 0 no-repeat;
+    height: 353px;
+  }
+
+  .map-block-form{
+    background: @black-color;
+    height: 234px;
+    margin: 0;
+    position: absolute;
+    right: 70px;
+    top: 50px;
+  }
+}
