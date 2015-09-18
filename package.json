@@ -1,14 +1,7 @@
 {
   "name": "zharaGulp",
   "version": "0.0.0",
-  "dependencies": {},
-  "main": "index.js",
-  "scripts": {
-    "test": "gulp test",
-    "start": "node index.js",
-    "postinstall": "node postInstall.js"
-  },
-  "devDependencies": {
+  "dependencies": {
     "gulp": "~3.9.0",
     "gulp-autoprefixer": "~2.3.1",
     "gulp-angular-templatecache": "~1.6.0",
@@ -52,6 +45,14 @@
     "uglify-save-license": "~0.4.1",
     "wrench": "~1.5.8",
     "shelljs": "^0.5.1"
+    },
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test",
+    "start": "node index.js",
+    "postinstall": "node postInstall.js"
+  },
+  "devDependencies": {
   },
   "engines": {
     "node": ">=0.10.0"
