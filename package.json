@@ -2,8 +2,11 @@
   "name": "zharaGulp",
   "version": "0.0.0",
   "dependencies": {},
+  "main": "index.js",
   "scripts": {
-    "test": "gulp test"
+    "test": "gulp test",
+    "start": "node index.js",
+    "postinstall": "node postInstall.js"
   },
   "devDependencies": {
     "gulp": "~3.9.0",
@@ -47,7 +50,8 @@
     "http-proxy-middleware": "~0.0.5",
     "chalk": "~1.0.0",
     "uglify-save-license": "~0.4.1",
-    "wrench": "~1.5.8"
+    "wrench": "~1.5.8",
+    "shelljs": "^0.5.1"
   },
   "engines": {
     "node": ">=0.10.0"
