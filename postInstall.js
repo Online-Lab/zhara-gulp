@@ -1,6 +1,6 @@
 require('shelljs/global');
 
-if (process.env.NPM_ENV === 'production') {
+if (process.env.NODE_ENV === 'production') {
   console.log('running bower install');
   exec('node_modules/bower/bin/bower install');
   console.log('running gulp build');

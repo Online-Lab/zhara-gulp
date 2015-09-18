@@ -5,7 +5,7 @@ var app = express()
 //app config
 app.set('port', (process.env.PORT || 5001))
 
-if (process.env.NPM_ENV == 'production') {
+if (process.env.NODE_ENV == 'production') {
   app.use(gzippo.staticGzip(__dirname + '/dist'))
 } else {
   app.use(gzippo.staticGzip(__dirname + '/.tmp/serve'))
